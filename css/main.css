@@ -1,0 +1,378 @@
+/*mobile nav*/
+.navbar-brand{
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*desktop view*/
+@media only screen and (min-width: 600px) {
+  #nav{
+  	display: none;
+  }
+  #collapsibleNavbar{
+  	display: block;
+  }
+}
+
+/*desktop View*/
+@media only screen and (min-width: 992px) {
+  #nav{
+  	display: none;
+  }
+  #collapsibleNavbar{
+  	display: block;
+  }
+
+  /*home*/
+  #home .card .card-img{
+  	max-height: 99.7vh;
+  	overflow: hidden;
+  	margin: auto;
+  }
+  #home .card .card-img-overlay{
+  	opacity: 0.6;
+  	margin-left: 230px;
+  	font-family: 'Prata', serif;
+  	font-size: 60px;
+  }
+  #home .card .card-img-overlay p{
+  	margin-bottom: -20px;
+  }
+  #home .card .card-img-overlay i{
+  	font-size: 30px;
+  	color: #dae6e1!important;
+  }
+  #about, #resume, #projects, #contact{
+  	margin-left: 230px;
+  	min-height: 100vh;
+  }
+  #arrow{
+  	display: none;
+  }
+}
+
+/*mobile view*/
+@media only screen and (max-width: 600px){
+	#collapsibleNavbar{
+		overflow-x: hidden;
+		z-index: 1;
+		transition: width 0.1s ease;
+		transition-timing-function: linear;
+	}
+	#home .card .card-img{
+		position: relative;
+		width: auto;
+		height: 99vh!important;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	#home .card .card-img-overlay{
+		opacity: 0.6;
+		margin: auto;
+		font-family: 'Prata', serif;
+		font-size: 60px;
+	}
+	#home .card .card-img-overlay p{
+		line-height: 65px;
+	}
+	#home .card .card-img-overlay i{
+		font-size: 20px;
+		color: #dae6e1!important;
+	}
+	#home .card .card-img-overlay .quote{
+		line-height: 30px;
+	}
+	table tr td{
+		font-size: 22px;
+	}
+	#contact .container{
+		padding-bottom: 50px;
+	}
+	#arrow{
+		position: fixed;
+		font-size: 40px;
+		bottom: 40px;
+		right: 30px;
+		text-decoration: none;
+		z-index: 999;
+		color: #07131D;
+		overflow: hidden;
+	}
+	#arrow:hover{
+		color: #2B4E6B;
+	}
+	.program{
+		width: 300px!important;
+	}
+}
+
+/*sidenav*/
+.sidenav {
+  height: 100vh;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+.sidenav .image{
+	overflow: hidden;
+	height: auto;
+	width: 230px;
+}
+
+.sidenav>.name{
+	background-color: #2B4C66;
+	font-size: 23px;
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	letter-spacing: 1px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .active{
+	color: #f1f1f1;
+}
+
+/*footer part*/
+.footer{
+	position: absolute;
+	bottom: 0px;
+}
+
+.footer ul{
+	padding-inline-start: 30px!important;
+}
+
+.footer ul li{
+	display: inline-block;
+}
+
+.footer ul li a{
+	padding: 2px 2px!important;
+	font-size: 20px;
+}
+
+/*about*/
+#about h1{
+	color: #2B4C66;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#about .row .col-md-8 h2, #about .row .col-md-4 h2{
+	font-family: 'Archivo Narrow', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+
+#about p{
+	font-size: 19px;
+	font-family: Arial Narrow;
+}
+
+#about p a{
+	text-decoration: none;
+	color: #2B4C66;
+}
+
+#about p a:hover{
+	color: #0b1e2e;
+	cursor: pointer;
+}
+
+#about ul{
+	padding-inline-start:0px!important;
+}
+
+#about ul li{
+	font-size: 19px;
+	font-family: Arial Narrow;
+	margin-bottom: 5px;
+}
+
+#about a button{
+	border: 1px solid #2B4C66;
+	color: #2B4C66;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+#about a button:hover{
+	color: #fff;
+	background-color: #2B4C66;
+}
+
+#about .title{
+	font-family: 'Archivo Narrow', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	color: #2B4C66;
+	margin-bottom: 30px;
+}
+
+#about .pro-icon li{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#about .pro-icon li img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: center;
+}
+
+/*resume*/
+#resume h1{
+	color: #2B4C66;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#resume{
+	background-color: #9cb3ba;
+}
+
+#resume h2{
+	font-family: 'Archivo Narrow', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 18px;
+	color: #2B4C66;
+}
+
+#resume ul{
+	padding-inline-start: 0px!important;
+}
+
+#resume .line{
+	margin-top: 35px;
+}
+
+#resume .line>li{
+	border-left: 4px solid #2B4C66;
+	padding-left: 20px;
+	margin-bottom: 35px;
+}
+
+#resume ul li h4{
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+
+#resume ul li p{
+	font-size: 18px;
+	font-family: arial narrow;
+	color: #2B4C66;
+}
+
+/*projects*/
+#projects h1{
+	color: #2B4C66;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#projects .card{
+	border: 0!important;
+}
+
+#projects .card .card-img{
+	margin-top: 25px;
+	border-radius: 10%;
+	position: relative;
+	opacity: 1;
+	display: block;
+}
+
+#projects .card .card-img .card-img-overlay{
+	background-color: #2B4C66;
+	position: absolute;
+	border-radius: 10%;
+	margin-top: 25px;
+	opacity: 0;
+}
+
+#projects .card .card-img .card-img-overlay .project-desc{
+	padding-top: 15%;
+    transition: all 300ms ease-out;
+    transform: translateY(60px);
+    -webkit-transform: translateY(60px);
+}
+
+#projects .card .card-img .card-img-overlay .project-desc h3{
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 30px;
+}
+
+#projects .card .card-img .card-img-overlay .project-desc p{
+	font-size: 18px;
+}
+
+#projects .card .card-img:hover .card-img-overlay{
+	opacity: 0.8;
+	top: 0;
+	transition: all 0.7s ease;
+}
+
+#projects .card .card-img:hover .card-img-overlay>.project-desc{
+	position: absolute;
+	transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+	transition: all 0.8s ease;
+	transition-delay: 0.1s;
+}
+
+/*contact me*/
+#contact h1{
+	color: #2B4C66;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#contact{
+	background-color: #9cb3ba;
+}
+
+#contact .container h2{
+	margin-top: 35px; 
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*contact me table part*/
+table{
+	font-size: 30px;
+	width: 100%;
+}
+
+table tr td{
+	padding: 10px;
+	font-family: roboto;
+}
+
+table tr td:hover{
+	color: #4b4f4f;
+	cursor: pointer;
+}
+
+table tr td a{
+	text-decoration: none;
+	color: black;
+}
+
+table tr td a:hover, table tr td a:focus{
+	text-decoration: none;
+	color: #4b4f4f;
+}

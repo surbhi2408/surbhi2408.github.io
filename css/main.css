@@ -351,8 +351,25 @@
 	font-family: 'Archivo Narrow', sans-serif;
 }
 
-/*contact me table part*/
-table{
+/*contact me form part*/
+#contact form label{
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	width: 100%;
+}
+#contact form input, #contact form textarea{
+	background-color: #e4e7ed;
+}
+
+#contact form .button{
+	background-color: #2B4C66;
+	border: #2B4C66;
+	width: 15%;
+	font-size: 15px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*table{
 	font-size: 30px;
 	width: 100%;
 }
@@ -376,3 +393,12 @@ table tr td a:hover, table tr td a:focus{
 	text-decoration: none;
 	color: #4b4f4f;
 }
+
+form label{
+	font-size: 20px;
+	font-family: roboto;
+}
+form label input, form label textarea{
+	font-size: 17px;
+	padding: 4px;
+}*/

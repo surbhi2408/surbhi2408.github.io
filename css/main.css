@@ -39,7 +39,7 @@
   }
   #home .card .card-img-overlay i{
   	font-size: 30px;
-  	color: #dae6e1!important;
+  	color: #f2f7f5!important;
   }
   #about, #resume, #projects, #contact{
   	margin-left: 230px;
@@ -76,7 +76,7 @@
 	}
 	#home .card .card-img-overlay i{
 		font-size: 20px;
-		color: #dae6e1!important;
+		color: #f2f7f5!important;
 	}
 	#home .card .card-img-overlay .quote{
 		line-height: 30px;
